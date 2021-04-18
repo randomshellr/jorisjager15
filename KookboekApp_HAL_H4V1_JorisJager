@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS input en output</title>
+</head>
+
+<body>
+<p id="helloText">Geef hier u recepten. </p>
+<button id="knop">klik hier</button>
+
+<script> 
+var myButton = document.getElementById("knop");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', ingrediënten, false)
+
+function ingrediënten() {
+	var recepten = prompt("Typ hier u recepten.");
+	window.alert("Zijn dit u recepten: "+recepten);
+var duur = prompt("wat is de bereidingstijd")
+}
+</script>
+
+</body>
+</html>
